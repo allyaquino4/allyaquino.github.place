@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Famous Tourist Spots in Singapore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    .page-title {
+      color: black;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
+
+    .spot-title {
+      color: black;
+      text-align: center;
+      margin-top: 36px;
+      font-weight: 600;
+    }
+
+    .carousel-wrapper {
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .carousel-inner {
+      height: 480px;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .spot-desc {
+      max-width: 900px;
+      margin: 18px auto 36px;
+      background: rgba(0, 0, 0, 0.45);
+      padding: 14px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(1);
+    }
+
+    @media (max-width: 576px) {
+      .carousel-inner {
+        height: 300px;
+      }
+
+      .page-title {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-image: url('assets/BACKGROUND 2.jpg');
+           background-repeat: repeat;
+           background-position: center top;
+           background-attachment: scroll;
+           background-size: auto;
+           color: #fff;
+           margin: 0;
+           padding: 24px 12px;
+           font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+           text-shadow: 0 1px 2px rgba(0,0,0,0.7); position: relative;">
+  <div style="position: absolute; top: 24px; right: 24px; z-index: 10;" data-bs-theme="light">
+    <button type="button" class="btn-close" aria-label="Close" onclick="window.location.href='explore.html'"></button>
+  </div>
+  <h1 class="page-title">Famous Tourist Spots in Singapore</h1>
+
+  <!-- 1. Marina Bay Sands -->
+  <h2 class="spot-title">Marina Bay Sands</h2>
+  <div class="carousel-wrapper">
+    <div id="marina" class="carousel slide" data-bs-ride="carousel" aria-label="Marina Bay Sands images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/marina1.jpg" class="d-block w-100" alt="Marina Bay 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/marina2.jpg" class="d-block w-100" alt="Marina Bay 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/marina3.jpg" class="d-block w-100" alt="Marina Bay 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#marina" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#marina" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Marina Bay Sands is an iconic resort complex featuring a luxury hotel, a rooftop infinity pool, a sky park, and a
+    world-class shopping mall. It’s one of Singapore’s most recognized landmarks overlooking the stunning Marina Bay
+    skyline.
+  </p>
+
+  <!-- 2. Gardens by the Bay -->
+  <h2 class="spot-title">Gardens by the Bay</h2>
+  <div class="carousel-wrapper">
+    <div id="gardens" class="carousel slide" data-bs-ride="carousel" aria-label="Gardens by the Bay images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/gardens1.jpg" class="d-block w-100" alt="Gardens 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/gardens2.jpg" class="d-block w-100" alt="Gardens 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/gardens3.jpg" class="d-block w-100" alt="Gardens 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#gardens" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#gardens" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Gardens by the Bay is a futuristic nature park filled with towering Supertrees, exotic plants, and the famous Cloud
+    Forest dome. It’s a must-see attraction that blends technology and nature beautifully.
+  </p>
+
+  <!-- 3. Sentosa Island -->
+  <h2 class="spot-title">Sentosa Island</h2>
+  <div class="carousel-wrapper">
+    <div id="sentosa" class="carousel slide" data-bs-ride="carousel" aria-label="Sentosa Island images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/sentosa1.jpg" class="d-block w-100" alt="Sentosa 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/sentosa2.jpg" class="d-block w-100" alt="Sentosa 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/sentosa3.jpg" class="d-block w-100" alt="Sentosa 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#sentosa" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#sentosa" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Sentosa Island is Singapore’s ultimate fun destination, home to beaches, resorts, Universal Studios Singapore, and
+    countless attractions. It’s perfect for relaxation and adventure.
+  </p>
+
+  <!-- 4. Merlion Park -->
+  <h2 class="spot-title">Merlion Park</h2>
+  <div class="carousel-wrapper">
+    <div id="merlion" class="carousel slide" data-bs-ride="carousel" aria-label="Merlion Park images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/merlion1.jpg" class="d-block w-100" alt="Merlion 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/merlion2.jpg" class="d-block w-100" alt="Merlion 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/merlion3.jpg" class="d-block w-100" alt="Merlion 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#merlion" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#merlion" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Merlion Park is home to the famous Merlion statue — a mythical creature with a lion’s head and a fish’s body. It
+    represents Singapore’s origins as a fishing village and its name “Singapura,” meaning “Lion City.”
+  </p>
+
+  <!-- 5. Chinatown -->
+  <h2 class="spot-title">Chinatown</h2>
+  <div class="carousel-wrapper">
+    <div id="chinatown" class="carousel slide" data-bs-ride="carousel" aria-label="Chinatown images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/chinatown1.jpg" class="d-block w-100" alt="Chinatown 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/chinatown2.jpg" class="d-block w-100" alt="Chinatown 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/chinatown3.jpg" class="d-block w-100" alt="Chinatown 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#chinatown" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#chinatown" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Chinatown is a vibrant cultural hub filled with colorful temples, street markets, and delicious food. It’s the best
+    place to experience Singapore’s rich Chinese heritage.
+  </p>
+
+  <!-- 6. Orchard Road -->
+  <h2 class="spot-title">Orchard Road</h2>
+  <div class="carousel-wrapper">
+    <div id="orchard" class="carousel slide" data-bs-ride="carousel" aria-label="Orchard Road images">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/orchard1.jpg" class="d-block w-100" alt="Orchard 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/orchard2.jpg" class="d-block w-100" alt="Orchard 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/orchard3.jpg" class="d-block w-100" alt="Orchard 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#orchard" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#orchard" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <p class="spot-desc">
+    Orchard Road is Singapore’s shopping paradise lined with malls, boutiques, and restaurants. It’s the heart of the
+    city’s retail and entertainment scene.
+  </p>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Famous Foods in Singapore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        :root {
+            --card-img-height: 300px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: var(--card-img-height);
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        @media (max-width: 767px) {
+            :root {
+                --card-img-height: 160px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url('assets/BACKGROUND 2.jpg');
+           background-repeat: repeat;
+           background-position: center top;
+           background-attachment: scroll;
+           margin: 0;
+           padding: 24px 12px;">
+    <div style="position: absolute; top: 24px; right: 24px; z-index: 10;" data-bs-theme="light">
+        <button type="button" class="btn-close" aria-label="Close"
+            onclick="window.location.href='explore.html'"></button>
+    </div>
+    <div class="container py-3">
+        <header class="mb-4 text-center">
+            <h1 class="text-uppercase fw-bold mb-0 text-dark">6 Famous Foods in Singapore</h1>
+        </header>
+
+        <div class="row gy-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food1.jpg" class="card-img-top" alt="Hainanese Chicken Rice">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Hainanese Chicken Rice 🍗</h5>
+                        <p class="card-text">Steamed or roasted chicken served with fragrant rice cooked in chicken
+                            broth. Often called Singapore’s national dish.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food2.jpg" class="card-img-top" alt="Chilli Crab">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Chilli Crab 🦀</h5>
+                        <p class="card-text">Juicy crab cooked in a sweet, spicy, and tangy tomato-based sauce. Best
+                            eaten with mantou (fried buns).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food3.jpg" class="card-img-top" alt="Laksa">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Laksa 🍜</h5>
+                        <p class="card-text">A spicy noodle soup made with coconut milk, shrimp, fish cake, and bean
+                            sprouts — rich and flavorful.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food4.jpg" class="card-img-top" alt="Char Kway Teow">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Char Kway Teow 🍤</h5>
+                        <p class="card-text">Stir-fried flat rice noodles with soy sauce, egg, shrimp, and Chinese
+                            sausage. Smoky and savory.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food5.jpg" class="card-img-top" alt="Satay">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Satay 🍢</h5>
+                        <p class="card-text">Skewered and grilled meat (usually chicken or beef) served with a rich
+                            peanut sauce and cucumber slices.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/food6.jpg" class="card-img-top" alt="Hokkien Mee">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Hokkien Mee 🍋</h5>
+                        <p class="card-text">Stir-fried yellow noodles and rice noodles in prawn and squid broth, often
+                            topped with lime and sambal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

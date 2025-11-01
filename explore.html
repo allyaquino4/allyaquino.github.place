@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore Singapore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<style>
+  .btn-all {
+    background-color: #ADD8E6;
+    border-color: #ADD8E6;
+    font-size: 1.125rem;
+  }
+
+  .btn-all:hover,
+  .btn-all:focus {
+    background-color: #ff5252;
+    border-color: #ff5252;
+  }
+</style>
+
+<body>
+  <section class="position-relative d-flex align-items-center justify-content-center text-center text-white"
+    style="min-height:100vh; background-image: url('assets/BACKGROUND 1.jpg'); background-size: cover; background-position: center;"
+    role="img" aria-label="Background image of Singapore">
+    <!-- overlay for readability -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:0.45;"></div>
+
+    <div class="container position-relative" style="z-index:1;">
+      <h1 class="display-4 fw-bold">Explore Singapore 🇸🇬</h1>
+
+      <!-- using your exact Bootstrap button block -->
+      <div class="d-grid gap-2 col-6 mx-auto mt-4">
+        <button class="btn btn-all" type="button" onclick="location.href='tourist.html'">Tourist Spots</button>
+        <button class="btn btn-all" type="button" onclick="location.href='food.html'">Foods</button>
+        <button class="btn btn-all" type="button" onclick="location.href='dress.html'">Traditional Dresses</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

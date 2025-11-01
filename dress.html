@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Singapore's Traditional Dress</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        :root {
+            --card-img-height: 300px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: var(--card-img-height);
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        @media (max-width: 767px) {
+            :root {
+                --card-img-height: 160px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url('assets/BACKGROUND 2.jpg');
+           background-repeat: repeat;
+           background-position: center top;
+           background-attachment: scroll;
+           margin: 0;
+           padding: 24px 12px;">
+    <div style="position: absolute; top: 24px; right: 24px; z-index: 10;" data-bs-theme="light">
+        <button type="button" class="btn-close" aria-label="Close"
+            onclick="window.location.href='explore.html'"></button>
+    </div>
+    <div class="container py-3">
+        <header class="mb-4 text-center">
+            <h1 class="text-uppercase fw-bold mb-0 text-dark">Singapore's Traditional Dress/Clothes</h1>
+        </header>
+        <div class="row gy-4">
+            <!-- Baju Kurung -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/dress1.jpg" class="card-img-top" alt="Baju Kurung">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Baju Kurung</h5>
+                        <p class="card-text">
+                            A traditional Malay outfit worn by both men and women. For women, it’s a long blouse paired
+                            with a matching skirt; for men, it’s a long-sleeved shirt with trousers and a sarong.
+                            Commonly worn during festivals like Hari Raya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cheongsam (Qipao) -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/dress2.jpg" class="card-img-top" alt="Cheongsam (Qipao)">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Cheongsam (Qipao)</h5>
+                        <p class="card-text">
+                            A traditional Chinese dress for women, known for its high collar, tight fit, and side slits.
+                            It’s elegant and often made from silk with floral embroidery — usually worn during Chinese
+                            New Year or weddings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sari -->
+            <div class="col-12 col-md-4 d-flex">
+                <div class="card border-0 h-100 w-100">
+                    <img src="assets/dress3.jpg" class="card-img-top" alt="Sari">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Sari</h5>
+                        <p class="card-text">
+                            A traditional Indian garment made of a long piece of cloth (about 5–6 meters) wrapped around
+                            the body with one end draped over the shoulder. It’s colorful and often decorated with
+                            intricate patterns, symbolizing grace and beauty.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
