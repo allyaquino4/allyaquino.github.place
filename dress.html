@@ -18,11 +18,28 @@
             object-fit: cover;
             object-position: center;
             display: block;
+            aspect-ratio: 4/3;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 991.98px) {
             :root {
-                --card-img-height: 160px;
+                --card-img-height: 200px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            :root {
+                --card-img-height: 140px;
+            }
+
+            .card-title {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            :root {
+                --card-img-height: 90px;
             }
         }
     </style>
